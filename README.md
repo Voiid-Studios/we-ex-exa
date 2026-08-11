@@ -11,6 +11,6 @@ A list of its sample features:
 - When the server skips the night because everyone is sleeping
   (`TimeSkipEvent` with `SkipReason.NIGHT_SKIP`), it sends all
   online players a "good morning" message.
-- Adds the `/wex` command, which responds with a fixed message.
+- Adds the `/exa` command, which responds with a fixed message.
 
 Made with lots of love, Voiid Studios Team <3
