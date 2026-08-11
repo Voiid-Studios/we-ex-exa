@@ -1,0 +1,36 @@
+#*# EXA (The WonderEvents Example Expansion)
+### YOU'RE FREE TO DELETE THIS EXPANSION!!! WonderEvents works just
+### fine without it, so don't be afraid to delete it.
+### Thanks for using WE! <3
+
+#?# Want to see its source code?
+### Sure! You can view it on GitHub at:
+#*# https://github.com/Voiid-Studios/we-ex-exa
+
+Config:
+  # Master switch for the expansion's gameplay behavior (join welcome and
+  # the "new day" broadcast). The /wex command always works regardless of
+  # this value.
+  enabled: true
+
+Messages:
+  # Global prefix. You can use %PREFIX% inside any message below.
+  prefix: "&d[&bEXA&d]"
+
+  system:
+    no_permission: "%PREFIX% &cYou don't have permission to run this command."
+
+  #*# Gameplay messages #*#
+  gameplay:
+    # Sent (and the player registered in data/wex_db.yml) the first time a
+    # player WEX doesn't know about joins the server.
+    welcome: "%PREFIX% <green>Welcome to the server! Enjoy your stay :)</green>"
+
+    # Broadcast to every online player when the night is skipped because
+    # everyone in bed (Bukkit's TimeSkipEvent with reason NIGHT_SKIP).
+    new_day: "%PREFIX% <yellow>Good morning! It's a new day!</yellow>"
+
+  #*# /exa command #*#
+  command:
+    exa:
+      response: "%PREFIX% Heeey, how's it going? Everything's <rainbow>chill</rainbow> here :)"

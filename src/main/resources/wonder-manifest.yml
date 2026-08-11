@@ -1,0 +1,20 @@
+id: EXA
+name: EXA
+version: ${project.version}
+author: Voiid Studios
+bootstrap: voiidstudios.wex.EXABoot
+requirements:
+  wonder_min_version: 26.07.0
+commands:
+  exa:
+    description: Example command from the EXA expansion.
+    usage: /exa
+    permission: wexample.command.main
+permissions:
+  wexample.*:
+    description: Grants access to every EXA permission.
+    children:
+      wexample.command.main: true
+  wexample.command.main:
+    default: true
+    description: Allows the use of /exa.
