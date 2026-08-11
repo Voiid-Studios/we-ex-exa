@@ -1,5 +1,5 @@
 # EXA (The WonderEvents Example Expansion)
-EXA (or wonderEXAmple/WEX) is a small extension included when you use WonderEvents; it will be added by default during your first installation of WE.
+EXA (or wonderEXAmple/WEX) is a small expansion included when you use WonderEvents; it will be added by default during your first installation of WE.
 
 [![Require WonderEvents](https://voiid-studios.github.io/stuff/assets/buttons/requirewe_cozy.svg "Require WonderEvents")](https://github.com/Voiid-Studios/wonderevents)
 
@@ -16,5 +16,7 @@ A list of its sample features:
   (`TimeSkipEvent` with `SkipReason.NIGHT_SKIP`), it sends all
   online players a "good morning" message.
 - Adds the `/exa` command, which responds with a fixed message.
+
+---
 
 Made with lots of love, Voiid Studios Team <3
