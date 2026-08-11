@@ -1,7 +1,11 @@
 # EXA (The WonderEvents Example Expansion)
 EXA (or wonderEXAmple/WEX) is a small extension included when you use WonderEvents; it will be added by default during your first installation of WE.
 
+[![Require WonderEvents](https://voiid-studios.github.io/stuff/assets/buttons/requirewe_cozy.svg "Require WonderEvents")](https://github.com/Voiid-Studios/wonderevents)
+
 Don't worry! You can easily remove it, WonderEvents doesn't depend on EXA to work <3
+
+---
 
 A list of its sample features:
 - Upon loading, log a message to the console stating that this is the
